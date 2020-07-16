@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="V05_M_TONE">
+		<CBX_INST_ENTRY INSTANCE_NAME="|V05_M_TONE|music_ROM:get_fullnote|altsyncram:Ram0_rtl_0" CBX_FILE_NAME="altsyncram_8c71.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at V01_LEDS.v(42): always construct contains both blocking and non-blocking assignments

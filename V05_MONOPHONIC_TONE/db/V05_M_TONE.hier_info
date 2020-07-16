@@ -1,0 +1,53 @@
+|V05_M_TONE
+mclk => clk.CLK
+speaker <= speaker~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|V05_M_TONE|music_ROM:get_fullnote
+clk => note[0]~reg0.CLK
+clk => note[1]~reg0.CLK
+clk => note[2]~reg0.CLK
+clk => note[3]~reg0.CLK
+clk => note[4]~reg0.CLK
+clk => note[5]~reg0.CLK
+clk => note[6]~reg0.CLK
+clk => note[7]~reg0.CLK
+address[0] => Ram0.RADDR
+address[1] => Ram0.RADDR1
+address[2] => Ram0.RADDR2
+address[3] => Ram0.RADDR3
+address[4] => Ram0.RADDR4
+address[5] => Ram0.RADDR5
+address[6] => Ram0.RADDR6
+address[7] => Ram0.RADDR7
+note[0] <= note[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+note[1] <= note[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+note[2] <= note[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+note[3] <= note[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+note[4] <= note[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+note[5] <= note[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+note[6] <= note[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+note[7] <= note[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|V05_M_TONE|divide_by12:get_octave_and_note
+numerator[0] => remainder[0].DATAIN
+numerator[1] => remainder[1].DATAIN
+numerator[2] => Decoder2.IN3
+numerator[3] => Decoder1.IN2
+numerator[3] => Decoder2.IN2
+numerator[4] => Decoder0.IN1
+numerator[4] => Decoder1.IN1
+numerator[4] => Decoder2.IN1
+numerator[5] => Decoder0.IN0
+numerator[5] => Decoder1.IN0
+numerator[5] => Decoder2.IN0
+quotient[0] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+quotient[1] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+quotient[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+remainder[0] <= numerator[0].DB_MAX_OUTPUT_PORT_TYPE
+remainder[1] <= numerator[1].DB_MAX_OUTPUT_PORT_TYPE
+remainder[2] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+remainder[3] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+
+

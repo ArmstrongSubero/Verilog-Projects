@@ -1,0 +1,45 @@
+|V04_SIREN
+clk => speaker~reg0.CLK
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+clk => counter[5].CLK
+clk => counter[6].CLK
+clk => counter[7].CLK
+clk => counter[8].CLK
+clk => counter[9].CLK
+clk => counter[10].CLK
+clk => counter[11].CLK
+clk => counter[12].CLK
+clk => counter[13].CLK
+clk => counter[14].CLK
+clk => counter[15].CLK
+clk => tone[0].CLK
+clk => tone[1].CLK
+clk => tone[2].CLK
+clk => tone[3].CLK
+clk => tone[4].CLK
+clk => tone[5].CLK
+clk => tone[6].CLK
+clk => tone[7].CLK
+clk => tone[8].CLK
+clk => tone[9].CLK
+clk => tone[10].CLK
+clk => tone[11].CLK
+clk => tone[12].CLK
+clk => tone[13].CLK
+clk => tone[14].CLK
+clk => tone[15].CLK
+clk => tone[16].CLK
+clk => tone[17].CLK
+clk => tone[18].CLK
+clk => tone[19].CLK
+clk => tone[20].CLK
+clk => tone[21].CLK
+clk => tone[22].CLK
+clk => tone[23].CLK
+speaker <= speaker~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
