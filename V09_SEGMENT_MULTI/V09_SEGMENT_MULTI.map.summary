@@ -1,0 +1,18 @@
+Analysis & Synthesis Status : Successful - Thu Jul 16 23:39:08 2020
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : V09_SEGMENT_MULTI
+Top-level Entity Name : V09_SEGMENT_MULTI
+Family : Cyclone IV GX
+Total logic elements : 85
+    Total combinational functions : 85
+    Dedicated logic registers : 35
+Total registers : 35
+Total pins : 35
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total GXB Receiver Channel PCS : 0
+Total GXB Receiver Channel PMA : 0
+Total GXB Transmitter Channel PCS : 0
+Total GXB Transmitter Channel PMA : 0
+Total PLLs : 0

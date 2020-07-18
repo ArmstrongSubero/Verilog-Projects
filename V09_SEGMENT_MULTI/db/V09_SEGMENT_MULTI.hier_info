@@ -1,0 +1,182 @@
+|V09_SEGMENT_MULTI
+clk => clk.IN1
+key[0] => clr.IN1
+key[1] => go.IN1
+hex3[0] <= bin_to_sseg:disp_unit_3.sseg
+hex3[1] <= bin_to_sseg:disp_unit_3.sseg
+hex3[2] <= bin_to_sseg:disp_unit_3.sseg
+hex3[3] <= bin_to_sseg:disp_unit_3.sseg
+hex3[4] <= bin_to_sseg:disp_unit_3.sseg
+hex3[5] <= bin_to_sseg:disp_unit_3.sseg
+hex3[6] <= bin_to_sseg:disp_unit_3.sseg
+hex3[7] <= bin_to_sseg:disp_unit_3.sseg
+hex2[0] <= bin_to_sseg:disp_unit_2.sseg
+hex2[1] <= bin_to_sseg:disp_unit_2.sseg
+hex2[2] <= bin_to_sseg:disp_unit_2.sseg
+hex2[3] <= bin_to_sseg:disp_unit_2.sseg
+hex2[4] <= bin_to_sseg:disp_unit_2.sseg
+hex2[5] <= bin_to_sseg:disp_unit_2.sseg
+hex2[6] <= bin_to_sseg:disp_unit_2.sseg
+hex2[7] <= bin_to_sseg:disp_unit_2.sseg
+hex1[0] <= bin_to_sseg:disp_unit_1.sseg
+hex1[1] <= bin_to_sseg:disp_unit_1.sseg
+hex1[2] <= bin_to_sseg:disp_unit_1.sseg
+hex1[3] <= bin_to_sseg:disp_unit_1.sseg
+hex1[4] <= bin_to_sseg:disp_unit_1.sseg
+hex1[5] <= bin_to_sseg:disp_unit_1.sseg
+hex1[6] <= bin_to_sseg:disp_unit_1.sseg
+hex1[7] <= bin_to_sseg:disp_unit_1.sseg
+hex0[0] <= bin_to_sseg:disp_unit_0.sseg
+hex0[1] <= bin_to_sseg:disp_unit_0.sseg
+hex0[2] <= bin_to_sseg:disp_unit_0.sseg
+hex0[3] <= bin_to_sseg:disp_unit_0.sseg
+hex0[4] <= bin_to_sseg:disp_unit_0.sseg
+hex0[5] <= bin_to_sseg:disp_unit_0.sseg
+hex0[6] <= bin_to_sseg:disp_unit_0.sseg
+hex0[7] <= bin_to_sseg:disp_unit_0.sseg
+
+
+|V09_SEGMENT_MULTI|stop_watch_if:counter_unit
+clk => ms_next.IN1
+clk => d0_reg[0].CLK
+clk => d0_reg[1].CLK
+clk => d0_reg[2].CLK
+clk => d0_reg[3].CLK
+clk => d1_reg[0].CLK
+clk => d1_reg[1].CLK
+clk => d1_reg[2].CLK
+clk => d1_reg[3].CLK
+clk => d2_reg[0].CLK
+clk => d2_reg[1].CLK
+clk => d2_reg[2].CLK
+clk => d2_reg[3].CLK
+clk => ms_reg[0].CLK
+clk => ms_reg[1].CLK
+clk => ms_reg[2].CLK
+clk => ms_reg[3].CLK
+clk => ms_reg[4].CLK
+clk => ms_reg[5].CLK
+clk => ms_reg[6].CLK
+clk => ms_reg[7].CLK
+clk => ms_reg[8].CLK
+clk => ms_reg[9].CLK
+clk => ms_reg[10].CLK
+clk => ms_reg[11].CLK
+clk => ms_reg[12].CLK
+clk => ms_reg[13].CLK
+clk => ms_reg[14].CLK
+clk => ms_reg[15].CLK
+clk => ms_reg[16].CLK
+clk => ms_reg[17].CLK
+clk => ms_reg[18].CLK
+clk => ms_reg[19].CLK
+clk => ms_reg[20].CLK
+clk => ms_reg[21].CLK
+clk => ms_reg[22].CLK
+clk => ms_reg[23].CLK
+go => ms_next.IN1
+go => ms_next.OUTPUTSELECT
+go => ms_next.OUTPUTSELECT
+go => ms_next.OUTPUTSELECT
+go => ms_next.OUTPUTSELECT
+go => ms_next.OUTPUTSELECT
+go => ms_next.OUTPUTSELECT
+go => ms_next.OUTPUTSELECT
+go => ms_next.OUTPUTSELECT
+go => ms_next.OUTPUTSELECT
+go => ms_next.OUTPUTSELECT
+go => ms_next.OUTPUTSELECT
+go => ms_next.OUTPUTSELECT
+go => ms_next.OUTPUTSELECT
+go => ms_next.OUTPUTSELECT
+go => ms_next.OUTPUTSELECT
+go => ms_next.OUTPUTSELECT
+go => ms_next.OUTPUTSELECT
+go => ms_next.OUTPUTSELECT
+go => ms_next.OUTPUTSELECT
+go => ms_next.OUTPUTSELECT
+go => ms_next.OUTPUTSELECT
+go => ms_next.OUTPUTSELECT
+go => ms_next.OUTPUTSELECT
+clr => d0_next[3].OUTPUTSELECT
+clr => d0_next[2].OUTPUTSELECT
+clr => d0_next[1].OUTPUTSELECT
+clr => d0_next[0].OUTPUTSELECT
+clr => d1_next[3].OUTPUTSELECT
+clr => d1_next[2].OUTPUTSELECT
+clr => d1_next[1].OUTPUTSELECT
+clr => d1_next[0].OUTPUTSELECT
+clr => d2_next[3].OUTPUTSELECT
+clr => d2_next[2].OUTPUTSELECT
+clr => d2_next[1].OUTPUTSELECT
+clr => d2_next[0].OUTPUTSELECT
+d2[0] <= d2_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+d2[1] <= d2_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+d2[2] <= d2_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+d2[3] <= d2_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+d1[0] <= d1_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+d1[1] <= d1_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+d1[2] <= d1_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+d1[3] <= d1_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+d0[0] <= d0_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+d0[1] <= d0_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+d0[2] <= d0_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+d0[3] <= d0_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|V09_SEGMENT_MULTI|bin_to_sseg:disp_unit_0
+bin[0] => Decoder0.IN3
+bin[1] => Decoder0.IN2
+bin[2] => Decoder0.IN1
+bin[3] => Decoder0.IN0
+sseg[0] <= <VCC>
+sseg[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+sseg[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+sseg[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+sseg[4] <= <VCC>
+sseg[5] <= <VCC>
+sseg[6] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|V09_SEGMENT_MULTI|bin_to_sseg:disp_unit_1
+bin[0] => Decoder0.IN3
+bin[1] => Decoder0.IN2
+bin[2] => Decoder0.IN1
+bin[3] => Decoder0.IN0
+sseg[0] <= <VCC>
+sseg[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+sseg[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+sseg[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+sseg[4] <= <VCC>
+sseg[5] <= <VCC>
+sseg[6] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|V09_SEGMENT_MULTI|bin_to_sseg:disp_unit_2
+bin[0] => Decoder0.IN3
+bin[1] => Decoder0.IN2
+bin[2] => Decoder0.IN1
+bin[3] => Decoder0.IN0
+sseg[0] <= <VCC>
+sseg[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+sseg[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+sseg[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+sseg[4] <= <VCC>
+sseg[5] <= <VCC>
+sseg[6] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|V09_SEGMENT_MULTI|bin_to_sseg:disp_unit_3
+bin[0] => Decoder0.IN3
+bin[1] => Decoder0.IN2
+bin[2] => Decoder0.IN1
+bin[3] => Decoder0.IN0
+sseg[0] <= <VCC>
+sseg[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+sseg[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+sseg[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+sseg[4] <= <VCC>
+sseg[5] <= <VCC>
+sseg[6] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+

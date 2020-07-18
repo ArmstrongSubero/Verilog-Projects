@@ -1,0 +1,16 @@
+module V06_LED_BLINK(clk, LED)
+	input clk;
+	output LED;
+	
+	// create a binary counter
+	reg[31:0] cnt;
+	
+	// increment count
+	always@(posedge clk) cnt <= cnt + 1;
+	
+	
+	// blink LED using 23rd bit of the counter
+	assign LED = cnt[22];
+
+
+endmodule
