@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sat Jul 18 00:04:40 2020
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : V11_BARREL_SHIFTER
+Top-level Entity Name : V11_BARREL_SHIFTER
+Family : Cyclone IV E
+Device : EP4CE10F17C8
+Timing Models : Final
+Total logic elements : 24 / 10,320 ( < 1 % )
+    Total combinational functions : 24 / 10,320 ( < 1 % )
+    Dedicated logic registers : 0 / 10,320 ( 0 % )
+Total registers : 0
+Total pins : 19 / 180 ( 11 % )
+Total virtual pins : 0
+Total memory bits : 0 / 423,936 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

@@ -1,0 +1,73 @@
+|V11_BARREL_SHIFTER
+key[0] => _.IN1
+key[1] => _.IN1
+key[2] => _.IN1
+sw[0] => sw[0].IN1
+sw[1] => sw[1].IN1
+sw[2] => sw[2].IN1
+sw[3] => sw[3].IN1
+sw[4] => sw[4].IN1
+sw[5] => sw[5].IN1
+sw[6] => sw[6].IN1
+sw[7] => sw[7].IN1
+led[0] <= barrel_shifter_stage:shift_unit.y
+led[1] <= barrel_shifter_stage:shift_unit.y
+led[2] <= barrel_shifter_stage:shift_unit.y
+led[3] <= barrel_shifter_stage:shift_unit.y
+led[4] <= barrel_shifter_stage:shift_unit.y
+led[5] <= barrel_shifter_stage:shift_unit.y
+led[6] <= barrel_shifter_stage:shift_unit.y
+led[7] <= barrel_shifter_stage:shift_unit.y
+
+
+|V11_BARREL_SHIFTER|barrel_shifter_stage:shift_unit
+a[0] => s0[7].DATAB
+a[0] => s0[0].DATAA
+a[1] => s0[1].DATAA
+a[1] => s0[0].DATAB
+a[2] => s0[2].DATAA
+a[2] => s0[1].DATAB
+a[3] => s0[3].DATAA
+a[3] => s0[2].DATAB
+a[4] => s0[4].DATAA
+a[4] => s0[3].DATAB
+a[5] => s0[5].DATAA
+a[5] => s0[4].DATAB
+a[6] => s0[6].DATAA
+a[6] => s0[5].DATAB
+a[7] => s0[7].DATAA
+a[7] => s0[6].DATAB
+amt[0] => s0[7].OUTPUTSELECT
+amt[0] => s0[6].OUTPUTSELECT
+amt[0] => s0[5].OUTPUTSELECT
+amt[0] => s0[4].OUTPUTSELECT
+amt[0] => s0[3].OUTPUTSELECT
+amt[0] => s0[2].OUTPUTSELECT
+amt[0] => s0[1].OUTPUTSELECT
+amt[0] => s0[0].OUTPUTSELECT
+amt[1] => s1[7].OUTPUTSELECT
+amt[1] => s1[6].OUTPUTSELECT
+amt[1] => s1[5].OUTPUTSELECT
+amt[1] => s1[4].OUTPUTSELECT
+amt[1] => s1[3].OUTPUTSELECT
+amt[1] => s1[2].OUTPUTSELECT
+amt[1] => s1[1].OUTPUTSELECT
+amt[1] => s1[0].OUTPUTSELECT
+amt[2] => y.OUTPUTSELECT
+amt[2] => y.OUTPUTSELECT
+amt[2] => y.OUTPUTSELECT
+amt[2] => y.OUTPUTSELECT
+amt[2] => y.OUTPUTSELECT
+amt[2] => y.OUTPUTSELECT
+amt[2] => y.OUTPUTSELECT
+amt[2] => y.OUTPUTSELECT
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[4] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[5] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[6] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[7] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
