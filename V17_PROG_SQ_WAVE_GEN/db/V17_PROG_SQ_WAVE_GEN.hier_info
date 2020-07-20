@@ -1,0 +1,30 @@
+|V17_PROG_SQ_WAVE_GEN
+waveform <= waveform~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+clk => clk_tick_count[0].CLK
+clk => clk_tick_count[1].CLK
+clk => clk_tick_count[2].CLK
+clk => clk_tick_count[3].CLK
+clk => waveform~reg0.CLK
+reset => count[0].ACLR
+reset => count[1].ACLR
+reset => count[2].ACLR
+reset => count[3].ACLR
+reset => clk_tick_count[0].ACLR
+reset => clk_tick_count[1].ACLR
+reset => clk_tick_count[2].ACLR
+reset => clk_tick_count[3].ACLR
+reset => waveform~reg0.ACLR
+on[0] => count.DATAA
+on[1] => count.DATAA
+on[2] => count.DATAA
+on[3] => count.DATAA
+off[0] => count.DATAB
+off[1] => count.DATAB
+off[2] => count.DATAB
+off[3] => count.DATAB
+
+
