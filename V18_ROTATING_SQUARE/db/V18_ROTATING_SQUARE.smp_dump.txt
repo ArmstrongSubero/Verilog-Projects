@@ -1,0 +1,5 @@
+
+State Machine - |V18_ROTATING_SQUARE|BCD
+Name BCD.0001 
+BCD.0000 0 
+BCD.0001 1 

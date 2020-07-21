@@ -1,0 +1,6 @@
+
+State Machine - |V19_FSM|state_reg
+Name state_reg.s0 state_reg.s2 state_reg.s1 
+state_reg.s0 0 0 0 
+state_reg.s1 1 0 1 
+state_reg.s2 1 1 0 
