@@ -1,14 +1,14 @@
-Analysis & Synthesis Status : Successful - Mon Jul 20 23:57:32 2020
+Analysis & Synthesis Status : Successful - Wed Jul 22 11:58:56 2020
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : V21_NIOS_BLINK
 Top-level Entity Name : nios_led_top
 Family : Cyclone IV E
-Total logic elements : 1,418
-    Total combinational functions : 1,269
-    Dedicated logic registers : 746
-Total registers : 746
-Total pins : 11
+Total logic elements : 1,685
+    Total combinational functions : 1,509
+    Dedicated logic registers : 899
+Total registers : 899
+Total pins : 5
 Total virtual pins : 0
-Total memory bits : 170,240
+Total memory bits : 171,264
 Embedded Multiplier 9-bit elements : 0
 Total PLLs : 0

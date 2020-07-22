@@ -1,4 +1,4 @@
 eclipse.preferences.version=1
-newSoftwareExampleWizardPage.defaultLocation=C\:\\Users\\armst\\Desktop\\Verilog-Projects\\V21_NIOS_BLINK\\software\\nios_led
-newSoftwareExampleWizardPage.sopcinfoFile=C\:\\Users\\armst\\Desktop\\Verilog-Projects\\V21_NIOS_BLINK\\nios_led.sopcinfo
-newSoftwareExampleWizardPage2.newBspLocation=C\:\\Users\\armst\\Desktop\\Verilog-Projects\\V21_NIOS_BLINK\\software\\nios_led_bsp
+newSoftwareExampleWizardPage.defaultLocation=C\:\\Users\\armst\\Desktop\\Verilog-Projects\\V21_NIOS_BLINK\\software\\led_blink
+newSoftwareExampleWizardPage.sopcinfoFile=C\:\\Users\\armst\\Desktop\\Verilog-Projects\\V21_NIOS_BLINK\\led_nios.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=C\:\\Users\\armst\\Desktop\\Verilog-Projects\\V21_NIOS_BLINK\\software\\led_blink_bsp
